@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "compodoc": "npx compodoc -p src/tsconfig.app.json"
   },
   "private": true,
   "dependencies": {
@@ -32,6 +33,7 @@
     "@angular/compiler-cli": "~7.2.0",
     "@angular/language-service": "~7.2.0",
     "@babel/core": "^7.4.3",
+    "@compodoc/compodoc": "^1.1.9",
     "@storybook/addon-actions": "^5.0.6",
     "@storybook/addon-knobs": "^5.0.6",
     "@storybook/addon-links": "^5.0.6",
